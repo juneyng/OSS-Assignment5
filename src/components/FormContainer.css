@@ -1,0 +1,27 @@
+.form-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 400px;
+}
+
+button {
+  background-color: #00897b;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #00796b;
+  transform: translateY(-2px);
+}

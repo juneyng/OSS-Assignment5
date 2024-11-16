@@ -1,0 +1,19 @@
+.students-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  width: 100%;
+  max-width: 450px;
+}
+
+#div_students div {
+  padding: 8px;
+  margin: 8px 0;
+  border-bottom: 1px solid #e0f2f1;
+  color: #004d40;
+}
+
+#div_students div:last-child {
+  border-bottom: none;
+}
